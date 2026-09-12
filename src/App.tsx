@@ -117,6 +117,7 @@ export function App() {
                         <MetricBox label="Surface" value={selectedSurface.name} />
                         <MetricBox label="Size" value={`${selectedSurface.width} × ${selectedSurface.height}px`} />
                         <MetricBox label="Usable Area" value={`${resolvedLayout.usableArea.width} × ${resolvedLayout.usableArea.height}px`} />
+                        <MetricBox label="Aspect Ratio" value={`${aspectRatio}:1`} />
                         <MetricBox label="Layout" value={resolvedLayout.composition} />
                     </div>
 
